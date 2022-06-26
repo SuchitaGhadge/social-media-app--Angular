@@ -1,0 +1,14 @@
+.active{
+    border-bottom: 1px solid #ffffff;
+}
+
+.form-check.form-switch{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+} 
+
+.form-check-input:checked{
+    background-color:#2C3639;
+    border-color: #ffffff;
+}

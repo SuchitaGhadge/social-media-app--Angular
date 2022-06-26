@@ -1,0 +1,7 @@
+<div [ngClass]="{darkMode : themeToggle}">
+  <app-header (themeToggle)=toggleTheme($event)></app-header>
+  <div class="container min-vh-100">
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</div>  

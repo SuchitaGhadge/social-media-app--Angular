@@ -1,0 +1,13 @@
+<div class="card mb-3 horizontal-display d-flex">
+    <div class="d-flex justify-content-center align-items center">
+        <img class="img-fluid rounded-circle mx-2 mt-1" [src]="user.picture" alt="user-img">
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">
+            {{user.name | uppercase}}
+        </h5>
+        <p class="card-text">
+            {{user.bio}}
+        </p>
+    </div>
+</div>
