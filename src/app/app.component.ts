@@ -1,11 +1,11 @@
-import { Component, OnChanges } from '@angular/core';
+import { Component } from '@angular/core';
 import { AuthService } from './services/auth.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnChanges {
+export class AppComponent  {
   themeToggle : any 
   setMode : any
   constructor(
@@ -19,11 +19,6 @@ export class AppComponent implements OnChanges {
     }
   }
   title = 'social-media-app';
-
-  ngOnChanges(){
-    this.themeToggle()
-  }
-  
 
   toggleTheme(event){
     console.log("in app",event)
